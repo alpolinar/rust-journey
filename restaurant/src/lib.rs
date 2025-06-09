@@ -12,8 +12,7 @@ mod front_of_the_house {
 }
 
 pub use crate::front_of_the_house::hosting;
-use back_of_the_house::Appetizer;
-use back_of_the_house::Breakfast;
+use back_of_the_house::{Appetizer, Breakfast};
 
 pub fn eat_at_restaurant() {
     let mut meal = Breakfast::summer("Rye");
